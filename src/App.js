@@ -6,15 +6,20 @@ import Header from './Components/AdminPanel/Header';
 import Sidebar from './Components/AdminPanel/Sidebar';
 import Home from './Components/AdminPanel/Home';
 
-function App() {
-  
-  return (
-    <div >
-      <Header/>
-      <Sidebar/>
-      <Home/>
-    </div>
-  );
-}
 
+  function App() {
+    const [openSidebarToggle, setOpenSidebarToggle] = useState(false)
+  
+    const OpenSidebar = () => {
+      setOpenSidebarToggle(!openSidebarToggle)
+    }
+  
+    return (
+      <div className='grid-container'>
+        <Header OpenSidebar={OpenSidebar}/>
+        <Sidebar openSidebarToggle={openSidebarToggle} OpenSidebar={OpenSidebar}/>
+        <Home />
+      </div>
+    )
+  }
 export default App;
