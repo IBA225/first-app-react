@@ -1,6 +1,6 @@
 import React from 'react'
 import 
-{BsCart3, BsGrid1X2Fill, BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill, 
+{BsCart3, BsFastForwardFill, BsSpeedometer,  BsBuildingFillAdd, BsFillPersonPlusFill , 
   BsListCheck, BsMenuButtonWideFill, BsFillGearFill}
  from 'react-icons/bs'
 
@@ -9,7 +9,7 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
     <aside id="sidebar" className={openSidebarToggle ? "sidebar-responsive": ""}>
     <div className='sidebar-title'>
         <div className='sidebar-brand'>
-            <BsCart3  className='icon_header'/> Stage Horizon
+            <BsCart3  className='icon_header'/>Stage Horizon
         </div>
         <span className='icon close_icon' onClick={OpenSidebar}>X</span>
     </div>
@@ -17,22 +17,22 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
     <ul className='sidebar-list'>
         <li className='sidebar-list-item'>
             <a href="">
-                <BsGrid1X2Fill className='icon'/> Dashboard
+                <BsFastForwardFill className='icon'/>Demandes de Stages
             </a>
         </li>
         <li className='sidebar-list-item'>
             <a href="">
-                <BsFillArchiveFill className='icon'/> Products
+                <BsSpeedometer className='icon'/> Stage Actifs
             </a>
         </li>
         <li className='sidebar-list-item'>
             <a href="">
-                <BsFillGrid3X3GapFill className='icon'/> Categories
+                < BsBuildingFillAdd className='icon'/> Ajouter une entreprise 
             </a>
         </li>
         <li className='sidebar-list-item'>
             <a href="">
-                <BsPeopleFill className='icon'/> Customers
+                <BsFillPersonPlusFill className='icon'/>Ajouter un professionnel
             </a>
         </li>
         <li className='sidebar-list-item'>
