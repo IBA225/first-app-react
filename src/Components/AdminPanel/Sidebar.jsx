@@ -1,6 +1,6 @@
 import React from 'react'
 import 
-{BsCart3, BsFastForwardFill, BsSpeedometer,  BsBuildingFillAdd, BsFillPersonPlusFill , 
+{ BsFastForwardFill, BsSpeedometer,  BsBuildingFillAdd, BsFillPersonPlusFill , 
   BsListCheck, BsMenuButtonWideFill, BsFillGearFill}
  from 'react-icons/bs'
 
@@ -9,7 +9,7 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
     <aside id="sidebar" className={openSidebarToggle ? "sidebar-responsive": ""}>
     <div className='sidebar-title'>
         <div className='sidebar-brand'>
-            <BsCart3  className='icon_header'/>Stage Horizon
+           Stage Horizon 
         </div>
         <span className='icon close_icon' onClick={OpenSidebar}>X</span>
     </div>
@@ -37,17 +37,12 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
         </li>
         <li className='sidebar-list-item'>
             <a href="">
-                <BsListCheck className='icon'/> Inventory
+                <BsMenuButtonWideFill className='icon'/> Rapports
             </a>
         </li>
         <li className='sidebar-list-item'>
             <a href="">
-                <BsMenuButtonWideFill className='icon'/> Reports
-            </a>
-        </li>
-        <li className='sidebar-list-item'>
-            <a href="">
-                <BsFillGearFill className='icon'/> Setting
+                <BsFillGearFill className='icon'/> Réglages
             </a>
         </li>
     </ul>

@@ -1,6 +1,6 @@
 import React from 'react'
 import 
-{ BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill, BsFillBellFill}
+{ BsClipboard2PulseFill, BsPersonSquare, BsActivity , BsFillBellFill}
  from 'react-icons/bs'
  import 
  { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } 
@@ -63,22 +63,22 @@ return (
       <div className='main-cards'>
           <div className='card'>
               <div className='card-inner'>
-                  <h3>PRODUCTS</h3>
-                  <BsFillArchiveFill className='card_icon'/>
+                  <h3>Cahier de charge</h3>
+                  <BsClipboard2PulseFill className='card_icon'/>
               </div>
               <h1>300</h1>
           </div>
           <div className='card'>
               <div className='card-inner'>
-                  <h3>CATEGORIES</h3>
-                  <BsFillGrid3X3GapFill className='card_icon'/>
+                  <h3>Encadreur pro</h3>
+                  <BsPersonSquare className='card_icon'/>
               </div>
               <h1>12</h1>
           </div>
           <div className='card'>
               <div className='card-inner'>
-                  <h3>CUSTOMERS</h3>
-                  <BsPeopleFill className='card_icon'/>
+                  <h3>Suivis des tâches</h3>
+                  <BsActivity  className='card_icon'/>
               </div>
               <h1>33</h1>
           </div>

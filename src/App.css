@@ -38,11 +38,13 @@ body {
 }
 
 /* Header  */
-.header {
+.header-dash {
   grid-area: header;
   height: 60px;
   display: flex;
   align-items: center;
+  flex-direction: row;
+	flex-wrap: nowrap;
   justify-content: space-between;
   padding: 0 30px 0 30px;
   box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
@@ -77,8 +79,9 @@ body {
 
 .sidebar-brand {
   margin-top: 15px;
-  font-size: 20px;
+  font-size: 29px;
   font-weight: 700;
+  color: rgb(16, 135, 247);
 }
 
 .sidebar-list {
