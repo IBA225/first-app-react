@@ -20,6 +20,7 @@ import Home from './Components/AdminPanel/Home';
         <Sidebar openSidebarToggle={openSidebarToggle} OpenSidebar={OpenSidebar}/>
         <Home />
       </div>
+      
     )
   }
 export default App;

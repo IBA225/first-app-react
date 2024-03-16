@@ -1,26 +1,24 @@
-import React, { useState } from 'react';
+/*import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
+  Route,
   RouterProvider,
 } from "react-router-dom";
-import BlogPage from './Components/AdminPanel/BlogPage';
-import Page2 from './Components/AdminPanel/Page2';
+import dmd from './Components/AdminPanel/dmd';
 const router = createBrowserRouter([
   {
+    <Route path="/" element={<dmd />} />
+
     path: "/",
     element: <App/>,
   },
   {
-    path: "/BlogPage",
-    element: <BlogPage/>,
-  },
-  {
-    path: "/Page2",
-    element: <Page2/>,
+    path: "/dmd",
+    element: <dmd/>,
   },
 ]);
 
@@ -35,3 +33,4 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+*/

@@ -77,11 +77,13 @@ body {
   display: none;
 }
 
-.sidebar-brand {
+.sidebar-brand a{
   margin-top: 15px;
   font-size: 29px;
   font-weight: 700;
-  color: rgb(16, 135, 247);
+  /*color: rgb(16, 135, 247);*/
+  text-decoration: none;
+  color: #f3f73d;
 }
 
 .sidebar-list {

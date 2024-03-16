@@ -9,19 +9,21 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
     <aside id="sidebar" className={openSidebarToggle ? "sidebar-responsive": ""}>
     <div className='sidebar-title'>
         <div className='sidebar-brand'>
-           Stage Horizon 
+            <a href="/">
+                Stage Horizon
+            </a>
         </div>
         <span className='icon close_icon' onClick={OpenSidebar}>X</span>
     </div>
 
     <ul className='sidebar-list'>
         <li className='sidebar-list-item'>
-            <a href="">
+            <a href="BlogPage">
                 <BsFastForwardFill className='icon'/>Demandes de Stages
             </a>
         </li>
         <li className='sidebar-list-item'>
-            <a href="">
+            <a href="/Page2">
                 <BsSpeedometer className='icon'/> Stage Actifs
             </a>
         </li>
