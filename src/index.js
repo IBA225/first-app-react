@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
@@ -8,7 +9,11 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import BlogPage from './Components/AdminPanel/BlogPage';
-import Page2 from './Components/AdminPanel/Page2';
+import PageActifs from './Components/AdminPanel/PageActifs';
+import PageEntreprise from './Components/AdminPanel/PageEntreprise';
+import PagePro from './Components/AdminPanel/PagePro';
+import PageRapport from './Components/AdminPanel/PageRapport';
+import PageReglage from './Components/AdminPanel/PageReglage';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -19,9 +24,26 @@ const router = createBrowserRouter([
     element: <BlogPage/>,
   },
   {
-    path: "/Page2",
-    element: <Page2/>,
+    path: "/PageActifs",
+    element: <PageActifs/>,
   },
+  {
+    path: "/PageEntreprise",
+    element: <PageEntreprise/>,
+  },
+  {
+    path: "/PagePro",
+    element: <PagePro/>,
+  },
+  {
+    path: "/PageRapport",
+    element: <PageRapport/>,
+  },
+  {
+    path: "/PageReglage",
+    element: <PageReglage/>,
+  },
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

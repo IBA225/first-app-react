@@ -1,7 +1,7 @@
 import React from 'react'
 import 
 { BsFastForwardFill, BsSpeedometer,  BsBuildingFillAdd, BsFillPersonPlusFill , 
-  BsListCheck, BsMenuButtonWideFill, BsFillGearFill}
+   BsMenuButtonWideFill, BsFillGearFill}
  from 'react-icons/bs'
 
 function Sidebar({openSidebarToggle, OpenSidebar}) {
@@ -18,32 +18,32 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
 
     <ul className='sidebar-list'>
         <li className='sidebar-list-item'>
-            <a href="BlogPage">
+            <a href="/BlogPage">
                 <BsFastForwardFill className='icon'/>Demandes de Stages
             </a>
         </li>
         <li className='sidebar-list-item'>
-            <a href="/Page2">
+            <a href="/PageActifs">
                 <BsSpeedometer className='icon'/> Stage Actifs
             </a>
         </li>
         <li className='sidebar-list-item'>
-            <a href="">
+            <a href="/PageEntreprise">
                 < BsBuildingFillAdd className='icon'/> Ajouter une entreprise 
             </a>
         </li>
         <li className='sidebar-list-item'>
-            <a href="">
+            <a href="/PagePro">
                 <BsFillPersonPlusFill className='icon'/>Ajouter un professionnel
             </a>
         </li>
         <li className='sidebar-list-item'>
-            <a href="">
+            <a href="/PageRapport">
                 <BsMenuButtonWideFill className='icon'/> Rapports
             </a>
         </li>
         <li className='sidebar-list-item'>
-            <a href="">
+            <a href="/PageRapport">
                 <BsFillGearFill className='icon'/> Réglages
             </a>
         </li>

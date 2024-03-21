@@ -63,29 +63,29 @@ return (
       <div className='main-cards'>
           <div className='card'>
               <div className='card-inner'>
-                  <h3>Cahier de charge</h3>
-                  <BsClipboard2PulseFill className='card_icon'/>
+                  <h4>Cahier de charge</h4>
+                  <BsClipboard2PulseFill className='card_icon'color='white'/>
               </div>
               <h1>300</h1>
           </div>
           <div className='card'>
               <div className='card-inner'>
-                  <h3>Encadreur pro</h3>
-                  <BsPersonSquare className='card_icon'/>
+                  <h4>Encadreur pro</h4>
+                  <BsPersonSquare className='card_icon' color='white'/>
               </div>
               <h1>12</h1>
           </div>
           <div className='card'>
               <div className='card-inner'>
-                  <h3>Suivis des tâches</h3>
-                  <BsActivity  className='card_icon'/>
+                  <h4>Suivis des tâches</h4>
+                  <BsActivity  className='card_icon' color='white'/>
               </div>
               <h1>33</h1>
           </div>
           <div className='card'>
               <div className='card-inner'>
-                  <h3>ALERTS</h3>
-                  <BsFillBellFill className='card_icon'/>
+                  <h4>ALERTS</h4>
+                  <BsFillBellFill className='card_icon'color='white'/>
               </div>
               <h1>42</h1>
           </div>
